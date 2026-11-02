@@ -1,0 +1,9 @@
+[package]
+name = "schema"
+description = "The normalized transaction model every decoder produces"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true

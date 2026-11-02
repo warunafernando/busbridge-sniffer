@@ -1,0 +1,53 @@
+# The layout follows Appendix C of the specification. Crates rather than one
+# binary because the specification's acceptance criteria require the CLI, the
+# GUI and the API to share exactly one implementation of the file format, the
+# schema and the decoders - separate crates are how that stays true.
+[workspace]
+resolver = "2"
+members = [
+    "core/schema",
+    "core/file",
+    "core/capture",
+    "core/decode",
+    "core/registry",
+    "analysis/search",
+    "analysis/measure",
+    "analysis/extend",
+    "analysis/trigger",
+    "decoders/i2c",
+    "decoders/uart",
+    "decoders/spi",
+    "decoders/mdio",
+    "decoders/i3c",
+    "decoders/can",
+    "tools/simulator",
+    "service",
+    "api",
+    "ui/desktop",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+
+[workspace.dependencies]
+schema = { path = "core/schema" }
+file = { path = "core/file" }
+capture = { path = "core/capture" }
+decode = { path = "core/decode" }
+i2c = { path = "decoders/i2c" }
+uart = { path = "decoders/uart" }
+spi = { path = "decoders/spi" }
+mdio = { path = "decoders/mdio" }
+i3c = { path = "decoders/i3c" }
+can = { path = "decoders/can" }
+registry = { path = "core/registry" }
+search = { path = "analysis/search" }
+measure = { path = "analysis/measure" }
+extend = { path = "analysis/extend" }
+trigger = { path = "analysis/trigger" }
+service = { path = "service" }
+simulator = { path = "tools/simulator" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

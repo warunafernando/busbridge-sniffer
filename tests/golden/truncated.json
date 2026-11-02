@@ -1,0 +1,78 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 15000000,
+      "end": 152500000,
+      "kind": "WRITE",
+      "summary": "0x52 W DE",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "address",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 25
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 25
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 25
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 222,
+          "display": "0xDE",
+          "kind": "data",
+          "start": 90000000,
+          "end": 150000000,
+          "samples": {
+            "chunk": 0,
+            "first": 28,
+            "last": 47
+          }
+        }
+      ],
+      "errors": [
+        "truncated"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 48
+      },
+      "complete": false
+    }
+  ],
+  "events": []
+}

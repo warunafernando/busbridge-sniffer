@@ -1,0 +1,884 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 15000000,
+      "end": 92500000,
+      "kind": "WRITE",
+      "summary": "0x50 W (address only)",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 23
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 23
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 23
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 25
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 117500000,
+      "end": 262500000,
+      "kind": "WRITE",
+      "summary": "0x50 W 00",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 125000000,
+          "end": 185000000,
+          "samples": {
+            "chunk": 0,
+            "first": 30,
+            "last": 49
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 125000000,
+          "end": 185000000,
+          "samples": {
+            "chunk": 0,
+            "first": 30,
+            "last": 49
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 125000000,
+          "end": 185000000,
+          "samples": {
+            "chunk": 0,
+            "first": 30,
+            "last": 49
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 192500000,
+          "end": 252500000,
+          "samples": {
+            "chunk": 0,
+            "first": 51,
+            "last": 67
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 27,
+        "last": 70
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 262500000,
+      "end": 407500000,
+      "kind": "READ-RS",
+      "summary": "0x50 R 18",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 270000000,
+          "end": 330000000,
+          "samples": {
+            "chunk": 0,
+            "first": 74,
+            "last": 95
+          }
+        },
+        {
+          "name": "direction",
+          "value": 1,
+          "display": "R",
+          "kind": "flag",
+          "start": 270000000,
+          "end": 330000000,
+          "samples": {
+            "chunk": 0,
+            "first": 74,
+            "last": 95
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 270000000,
+          "end": 330000000,
+          "samples": {
+            "chunk": 0,
+            "first": 74,
+            "last": 95
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 24,
+          "display": "0x18",
+          "kind": "data",
+          "start": 337500000,
+          "end": 397500000,
+          "samples": {
+            "chunk": 0,
+            "first": 97,
+            "last": 116
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 71,
+        "last": 119
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 432500000,
+      "end": 577500000,
+      "kind": "WRITE",
+      "summary": "0x50 W 0E",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 440000000,
+          "end": 500000000,
+          "samples": {
+            "chunk": 0,
+            "first": 124,
+            "last": 143
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 440000000,
+          "end": 500000000,
+          "samples": {
+            "chunk": 0,
+            "first": 124,
+            "last": 143
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 440000000,
+          "end": 500000000,
+          "samples": {
+            "chunk": 0,
+            "first": 124,
+            "last": 143
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 14,
+          "display": "0x0E",
+          "kind": "data",
+          "start": 507500000,
+          "end": 567500000,
+          "samples": {
+            "chunk": 0,
+            "first": 145,
+            "last": 163
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 121,
+        "last": 166
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 577500000,
+      "end": 790000000,
+      "kind": "READ-RS",
+      "summary": "0x50 R 1A 31",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 585000000,
+          "end": 645000000,
+          "samples": {
+            "chunk": 0,
+            "first": 170,
+            "last": 191
+          }
+        },
+        {
+          "name": "direction",
+          "value": 1,
+          "display": "R",
+          "kind": "flag",
+          "start": 585000000,
+          "end": 645000000,
+          "samples": {
+            "chunk": 0,
+            "first": 170,
+            "last": 191
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 585000000,
+          "end": 645000000,
+          "samples": {
+            "chunk": 0,
+            "first": 170,
+            "last": 191
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 26,
+          "display": "0x1A",
+          "kind": "data",
+          "start": 652500000,
+          "end": 712500000,
+          "samples": {
+            "chunk": 0,
+            "first": 193,
+            "last": 213
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 49,
+          "display": "0x31",
+          "kind": "data",
+          "start": 720000000,
+          "end": 780000000,
+          "samples": {
+            "chunk": 0,
+            "first": 215,
+            "last": 234
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 167,
+        "last": 237
+      },
+      "complete": true
+    },
+    {
+      "id": 6,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 815000000,
+      "end": 1027500000,
+      "kind": "WRITE",
+      "summary": "0x50 W 7F 11",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 822500000,
+          "end": 882500000,
+          "samples": {
+            "chunk": 0,
+            "first": 242,
+            "last": 261
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 822500000,
+          "end": 882500000,
+          "samples": {
+            "chunk": 0,
+            "first": 242,
+            "last": 261
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 822500000,
+          "end": 882500000,
+          "samples": {
+            "chunk": 0,
+            "first": 242,
+            "last": 261
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 127,
+          "display": "0x7F",
+          "kind": "data",
+          "start": 890000000,
+          "end": 950000000,
+          "samples": {
+            "chunk": 0,
+            "first": 263,
+            "last": 281
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 17,
+          "display": "0x11",
+          "kind": "data",
+          "start": 957500000,
+          "end": 1017500000,
+          "samples": {
+            "chunk": 0,
+            "first": 283,
+            "last": 303
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 239,
+        "last": 305
+      },
+      "complete": true
+    },
+    {
+      "id": 7,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1052500000,
+      "end": 1197500000,
+      "kind": "WRITE",
+      "summary": "0x50 W 90",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 1060000000,
+          "end": 1120000000,
+          "samples": {
+            "chunk": 0,
+            "first": 310,
+            "last": 329
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 1060000000,
+          "end": 1120000000,
+          "samples": {
+            "chunk": 0,
+            "first": 310,
+            "last": 329
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1060000000,
+          "end": 1120000000,
+          "samples": {
+            "chunk": 0,
+            "first": 310,
+            "last": 329
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 144,
+          "display": "0x90",
+          "kind": "data",
+          "start": 1127500000,
+          "end": 1187500000,
+          "samples": {
+            "chunk": 0,
+            "first": 332,
+            "last": 351
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 307,
+        "last": 354
+      },
+      "complete": true
+    },
+    {
+      "id": 8,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1197500000,
+      "end": 1410000000,
+      "kind": "READ-RS",
+      "summary": "0x50 R 00 64",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 1205000000,
+          "end": 1265000000,
+          "samples": {
+            "chunk": 0,
+            "first": 358,
+            "last": 379
+          }
+        },
+        {
+          "name": "direction",
+          "value": 1,
+          "display": "R",
+          "kind": "flag",
+          "start": 1205000000,
+          "end": 1265000000,
+          "samples": {
+            "chunk": 0,
+            "first": 358,
+            "last": 379
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1205000000,
+          "end": 1265000000,
+          "samples": {
+            "chunk": 0,
+            "first": 358,
+            "last": 379
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 1272500000,
+          "end": 1332500000,
+          "samples": {
+            "chunk": 0,
+            "first": 381,
+            "last": 397
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 100,
+          "display": "0x64",
+          "kind": "data",
+          "start": 1340000000,
+          "end": 1400000000,
+          "samples": {
+            "chunk": 0,
+            "first": 399,
+            "last": 420
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 355,
+        "last": 423
+      },
+      "complete": true
+    },
+    {
+      "id": 9,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1435000000,
+      "end": 1580000000,
+      "kind": "WRITE",
+      "summary": "0x50 W 10",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 1442500000,
+          "end": 1502500000,
+          "samples": {
+            "chunk": 0,
+            "first": 428,
+            "last": 447
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 1442500000,
+          "end": 1502500000,
+          "samples": {
+            "chunk": 0,
+            "first": 428,
+            "last": 447
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1442500000,
+          "end": 1502500000,
+          "samples": {
+            "chunk": 0,
+            "first": 428,
+            "last": 447
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 16,
+          "display": "0x10",
+          "kind": "data",
+          "start": 1510000000,
+          "end": 1570000000,
+          "samples": {
+            "chunk": 0,
+            "first": 449,
+            "last": 467
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 425,
+        "last": 470
+      },
+      "complete": true
+    },
+    {
+      "id": 10,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1580000000,
+      "end": 1792500000,
+      "kind": "READ-RS",
+      "summary": "0x50 R 80 34",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 1587500000,
+          "end": 1647500000,
+          "samples": {
+            "chunk": 0,
+            "first": 474,
+            "last": 495
+          }
+        },
+        {
+          "name": "direction",
+          "value": 1,
+          "display": "R",
+          "kind": "flag",
+          "start": 1587500000,
+          "end": 1647500000,
+          "samples": {
+            "chunk": 0,
+            "first": 474,
+            "last": 495
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1587500000,
+          "end": 1647500000,
+          "samples": {
+            "chunk": 0,
+            "first": 474,
+            "last": 495
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 128,
+          "display": "0x80",
+          "kind": "data",
+          "start": 1655000000,
+          "end": 1715000000,
+          "samples": {
+            "chunk": 0,
+            "first": 498,
+            "last": 515
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 52,
+          "display": "0x34",
+          "kind": "data",
+          "start": 1722500000,
+          "end": 1782500000,
+          "samples": {
+            "chunk": 0,
+            "first": 517,
+            "last": 538
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 471,
+        "last": 541
+      },
+      "complete": true
+    },
+    {
+      "id": 11,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1817500000,
+      "end": 1962500000,
+      "kind": "WRITE",
+      "summary": "0x51 W 95",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 81,
+          "display": "0x51",
+          "kind": "address",
+          "start": 1825000000,
+          "end": 1885000000,
+          "samples": {
+            "chunk": 0,
+            "first": 546,
+            "last": 567
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 1825000000,
+          "end": 1885000000,
+          "samples": {
+            "chunk": 0,
+            "first": 546,
+            "last": 567
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1825000000,
+          "end": 1885000000,
+          "samples": {
+            "chunk": 0,
+            "first": 546,
+            "last": 567
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 149,
+          "display": "0x95",
+          "kind": "data",
+          "start": 1892500000,
+          "end": 1952500000,
+          "samples": {
+            "chunk": 0,
+            "first": 570,
+            "last": 593
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 543,
+        "last": 596
+      },
+      "complete": true
+    },
+    {
+      "id": 12,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 1962500000,
+      "end": 2107500000,
+      "kind": "READ-RS",
+      "summary": "0x51 R 01",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 81,
+          "display": "0x51",
+          "kind": "address",
+          "start": 1970000000,
+          "end": 2030000000,
+          "samples": {
+            "chunk": 0,
+            "first": 600,
+            "last": 621
+          }
+        },
+        {
+          "name": "direction",
+          "value": 1,
+          "display": "R",
+          "kind": "flag",
+          "start": 1970000000,
+          "end": 2030000000,
+          "samples": {
+            "chunk": 0,
+            "first": 600,
+            "last": 621
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 1970000000,
+          "end": 2030000000,
+          "samples": {
+            "chunk": 0,
+            "first": 600,
+            "last": 621
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 1,
+          "display": "0x01",
+          "kind": "data",
+          "start": 2037500000,
+          "end": 2097500000,
+          "samples": {
+            "chunk": 0,
+            "first": 623,
+            "last": 640
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 597,
+        "last": 643
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

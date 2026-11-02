@@ -1,0 +1,13 @@
+[package]
+name = "measure"
+description = "Measurements over an interval, transaction comparison, and deterministic explanations"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+
+[dev-dependencies]
+simulator.workspace = true
+registry.workspace = true

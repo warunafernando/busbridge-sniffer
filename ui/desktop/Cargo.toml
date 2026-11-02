@@ -1,0 +1,36 @@
+[package]
+name = "sniffer-ui"
+description = "The desktop analyser: timeline, waveforms, decode bubbles, table and inspector"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "sniffer-ui"
+path = "src/main.rs"
+
+# Section 3.2 recommends Qt6 or Tauri. This is egui instead, deliberately:
+# it is GPU-backed, it is already proven against these same waveform-drawing
+# problems in the BUSBRIDGE bench console next door, and it keeps the whole
+# product in one language with no IPC boundary between the UI and the decoders
+# it calls thousands of times a frame. The specification's actual requirements
+# for this phase - sixty frames a second while panning a large capture, and one
+# implementation of the decoders shared with the CLI - are met either way.
+[dependencies]
+eframe = { version = "0.36", default-features = false, features = [
+    "default_fonts",
+    "glow",
+    "wayland",
+    "x11",
+] }
+egui = "0.36"
+
+schema.workspace = true
+file.workspace = true
+capture.workspace = true
+decode.workspace = true
+registry.workspace = true
+search.workspace = true
+measure.workspace = true
+extend.workspace = true
+trigger.workspace = true
+simulator.workspace = true

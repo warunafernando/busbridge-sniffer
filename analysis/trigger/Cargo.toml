@@ -1,0 +1,15 @@
+[package]
+name = "trigger"
+description = "The trigger model: what to look for, and where it can be looked for"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+search.workspace = true
+measure.workspace = true
+
+[dev-dependencies]
+simulator.workspace = true
+registry.workspace = true

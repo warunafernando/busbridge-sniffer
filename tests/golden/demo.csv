@@ -1,0 +1,7 @@
+id,bus,protocol,start_ps,end_ps,kind,severity,complete,chunk,first_sample,last_sample,errors,summary
+1,0,i2c,15000000,295000000,WRITE,info,true,0,1,95,,0x52 W 10 DE AD
+2,0,i2c,320000000,465000000,WRITE,info,true,0,97,144,,0x52 W 20
+3,0,i2c,465000000,812500000,READ-RS,info,true,0,145,265,,0x52 R 34 8A F1 22
+4,0,i2c,837500000,982500000,WRITE,info,true,0,267,309,,0x3C W 01
+5,0,i2c,1007500000,1085000000,WRITE,notice,true,0,311,337,nack,0x77 W — no acknowledge
+6,0,i2c,1110000000,1322500000,READ,info,true,0,339,407,,0x52 R FF 00

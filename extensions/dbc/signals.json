@@ -1,0 +1,37 @@
+{
+  "about": "A small signal database in the shape a DBC file describes. The ids match the sniffer's own `can` simulator script, so `sniffer analyze` has something to decode out of the box.",
+  "messages": {
+    "0x123": {
+      "name": "EngineData",
+      "length": 4,
+      "signals": [
+        { "name": "EngineSpeed", "start": 0, "length": 16, "scale": 0.25, "offset": 0, "unit": "rpm", "min": 0, "max": 8000 },
+        { "name": "CoolantTemp", "start": 16, "length": 8, "scale": 1, "offset": -40, "unit": "C", "min": -40, "max": 120 },
+        { "name": "ThrottlePos", "start": 24, "length": 8, "scale": 0.4, "offset": 0, "unit": "%", "min": 0, "max": 100 }
+      ]
+    },
+    "0x200": {
+      "name": "BrakeRequest",
+      "length": 3,
+      "signals": [
+        { "name": "BrakePressure", "start": 0, "length": 12, "scale": 0.1, "offset": 0, "unit": "bar", "min": 0, "max": 250 },
+        { "name": "BrakeActive", "start": 12, "length": 1, "scale": 1, "offset": 0, "unit": "" }
+      ]
+    },
+    "0x321": {
+      "name": "WheelSpeeds",
+      "length": 1,
+      "signals": [
+        { "name": "FrontLeft", "start": 0, "length": 8, "scale": 0.5, "offset": 0, "unit": "km/h", "min": 0, "max": 250 }
+      ]
+    },
+    "0x12ABCDE": {
+      "name": "DiagnosticResponse",
+      "length": 2,
+      "signals": [
+        { "name": "ServiceId", "start": 0, "length": 8, "scale": 1, "offset": 0, "unit": "" },
+        { "name": "SubFunction", "start": 8, "length": 8, "scale": 1, "offset": 0, "unit": "" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 15000000,
+      "end": 92500000,
+      "kind": "WRITE",
+      "summary": "0x50 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 24
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 24
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 22500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 24
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 27
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 107500000,
+      "end": 185000000,
+      "kind": "WRITE",
+      "summary": "0x51 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 81,
+          "display": "0x51",
+          "kind": "address",
+          "start": 115000000,
+          "end": 175000000,
+          "samples": {
+            "chunk": 0,
+            "first": 32,
+            "last": 54
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 115000000,
+          "end": 175000000,
+          "samples": {
+            "chunk": 0,
+            "first": 32,
+            "last": 54
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 115000000,
+          "end": 175000000,
+          "samples": {
+            "chunk": 0,
+            "first": 32,
+            "last": 54
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 29,
+        "last": 57
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 200000000,
+      "end": 277500000,
+      "kind": "WRITE",
+      "summary": "0x52 W (address only)",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 207500000,
+          "end": 267500000,
+          "samples": {
+            "chunk": 0,
+            "first": 62,
+            "last": 83
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 207500000,
+          "end": 267500000,
+          "samples": {
+            "chunk": 0,
+            "first": 62,
+            "last": 83
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 207500000,
+          "end": 267500000,
+          "samples": {
+            "chunk": 0,
+            "first": 62,
+            "last": 83
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 59,
+        "last": 85
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 292500000,
+      "end": 370000000,
+      "kind": "WRITE",
+      "summary": "0x53 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 83,
+          "display": "0x53",
+          "kind": "address",
+          "start": 300000000,
+          "end": 360000000,
+          "samples": {
+            "chunk": 0,
+            "first": 90,
+            "last": 112
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 300000000,
+          "end": 360000000,
+          "samples": {
+            "chunk": 0,
+            "first": 90,
+            "last": 112
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 300000000,
+          "end": 360000000,
+          "samples": {
+            "chunk": 0,
+            "first": 90,
+            "last": 112
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 87,
+        "last": 115
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 385000000,
+      "end": 462500000,
+      "kind": "WRITE",
+      "summary": "0x54 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 84,
+          "display": "0x54",
+          "kind": "address",
+          "start": 392500000,
+          "end": 452500000,
+          "samples": {
+            "chunk": 0,
+            "first": 120,
+            "last": 142
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 392500000,
+          "end": 452500000,
+          "samples": {
+            "chunk": 0,
+            "first": 120,
+            "last": 142
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 392500000,
+          "end": 452500000,
+          "samples": {
+            "chunk": 0,
+            "first": 120,
+            "last": 142
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 117,
+        "last": 145
+      },
+      "complete": true
+    },
+    {
+      "id": 6,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 477500000,
+      "end": 555000000,
+      "kind": "WRITE",
+      "summary": "0x55 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 85,
+          "display": "0x55",
+          "kind": "address",
+          "start": 485000000,
+          "end": 545000000,
+          "samples": {
+            "chunk": 0,
+            "first": 150,
+            "last": 174
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 485000000,
+          "end": 545000000,
+          "samples": {
+            "chunk": 0,
+            "first": 150,
+            "last": 174
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 485000000,
+          "end": 545000000,
+          "samples": {
+            "chunk": 0,
+            "first": 150,
+            "last": 174
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 147,
+        "last": 177
+      },
+      "complete": true
+    },
+    {
+      "id": 7,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 570000000,
+      "end": 647500000,
+      "kind": "WRITE",
+      "summary": "0x56 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 86,
+          "display": "0x56",
+          "kind": "address",
+          "start": 577500000,
+          "end": 637500000,
+          "samples": {
+            "chunk": 0,
+            "first": 182,
+            "last": 204
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 577500000,
+          "end": 637500000,
+          "samples": {
+            "chunk": 0,
+            "first": 182,
+            "last": 204
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 577500000,
+          "end": 637500000,
+          "samples": {
+            "chunk": 0,
+            "first": 182,
+            "last": 204
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 179,
+        "last": 207
+      },
+      "complete": true
+    },
+    {
+      "id": 8,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 662500000,
+      "end": 740000000,
+      "kind": "WRITE",
+      "summary": "0x57 W — no acknowledge",
+      "severity": "notice",
+      "fields": [
+        {
+          "name": "address",
+          "value": 87,
+          "display": "0x57",
+          "kind": "address",
+          "start": 670000000,
+          "end": 730000000,
+          "samples": {
+            "chunk": 0,
+            "first": 212,
+            "last": 234
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 670000000,
+          "end": 730000000,
+          "samples": {
+            "chunk": 0,
+            "first": 212,
+            "last": 234
+          }
+        },
+        {
+          "name": "ack",
+          "value": 0,
+          "display": "NACK",
+          "kind": "flag",
+          "start": 670000000,
+          "end": 730000000,
+          "samples": {
+            "chunk": 0,
+            "first": 212,
+            "last": 234
+          },
+          "severity": "notice"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 209,
+        "last": 237
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,16 @@
+[package]
+name = "registry"
+description = "Which decoder decodes a capture, and how it is configured"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+decode.workspace = true
+i2c.workspace = true
+i3c.workspace = true
+spi.workspace = true
+mdio.workspace = true
+uart.workspace = true
+can.workspace = true

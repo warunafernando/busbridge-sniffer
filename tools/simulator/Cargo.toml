@@ -1,0 +1,9 @@
+[package]
+name = "simulator"
+description = "Deterministic synthetic bus traffic, so everything else is testable without hardware"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true

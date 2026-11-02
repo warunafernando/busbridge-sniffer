@@ -1,0 +1,34 @@
+[package]
+name = "sniffer-cli"
+description = "capture, decode, query, export and replay from a terminal"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "sniffer"
+path = "src/main.rs"
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+capture.workspace = true
+decode.workspace = true
+registry.workspace = true
+search.workspace = true
+measure.workspace = true
+extend.workspace = true
+trigger.workspace = true
+service.workspace = true
+i2c.workspace = true
+i3c.workspace = true
+can.workspace = true
+spi.workspace = true
+mdio.workspace = true
+uart.workspace = true
+simulator.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+decode.workspace = true
+can.workspace = true
+uart.workspace = true

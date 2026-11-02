@@ -1,0 +1,9 @@
+[package]
+name = "decode"
+description = "The decoder SDK contract: edges, fields, the gap rule"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true

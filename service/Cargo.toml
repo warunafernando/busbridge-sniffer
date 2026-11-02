@@ -1,0 +1,17 @@
+[package]
+name = "service"
+description = "The local API: one session, and the MCP tools over it"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+capture.workspace = true
+registry.workspace = true
+search.workspace = true
+measure.workspace = true
+trigger.workspace = true
+simulator.workspace = true
+serde.workspace = true
+serde_json.workspace = true

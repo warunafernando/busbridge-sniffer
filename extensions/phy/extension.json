@@ -1,0 +1,16 @@
+{
+  "name": "phy",
+  "version": "1.0.0",
+  "about": "MDIO accesses as IEEE 802.3 PHY registers, with the bits decoded",
+  "protocols": ["mdio"],
+  "command": ["python", "phy.py"],
+  "search_fields": [
+    { "name": "phy.register", "help": "the register's name, e.g. BMSR" },
+    { "name": "phy.link", "help": "up or down, from BMSR" },
+    { "name": "phy.autoneg", "help": "whether autonegotiation completed" },
+    { "name": "phy.speed", "help": "the speed BMCR selects" },
+    { "name": "phy.abilities", "help": "what was advertised, or what the partner can do" },
+    { "name": "phy.device", "help": "the clause 45 device the access was to" }
+  ],
+  "timeout_ms": 10000
+}

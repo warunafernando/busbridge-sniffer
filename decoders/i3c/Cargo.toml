@@ -1,0 +1,13 @@
+[package]
+name = "i3c"
+description = "i3c decoder over raw edges"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+decode.workspace = true
+
+[dev-dependencies]
+simulator.workspace = true

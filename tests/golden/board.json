@@ -1,0 +1,101 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "i2c",
+      "start": 43640000,
+      "end": 1727216000,
+      "kind": "WRITE",
+      "summary": "0x50 W 5A 00 FF",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 80,
+          "display": "0x50",
+          "kind": "address",
+          "start": 88948000,
+          "end": 448096000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 20
+          }
+        },
+        {
+          "name": "direction",
+          "value": 0,
+          "display": "W",
+          "kind": "flag",
+          "start": 88948000,
+          "end": 448096000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 20
+          }
+        },
+        {
+          "name": "ack",
+          "value": 1,
+          "display": "ACK",
+          "kind": "flag",
+          "start": 88948000,
+          "end": 448096000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 20
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 90,
+          "display": "0x5A",
+          "kind": "data",
+          "start": 492912000,
+          "end": 852752000,
+          "samples": {
+            "chunk": 0,
+            "first": 22,
+            "last": 38
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 897568000,
+          "end": 1256384000,
+          "samples": {
+            "chunk": 0,
+            "first": 40,
+            "last": 56
+          }
+        },
+        {
+          "name": "data[2]",
+          "value": 255,
+          "display": "0xFF",
+          "kind": "data",
+          "start": 1301444000,
+          "end": 1660000000,
+          "samples": {
+            "chunk": 0,
+            "first": 58,
+            "last": 74
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 76
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

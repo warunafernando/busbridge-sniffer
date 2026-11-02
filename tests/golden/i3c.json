@@ -1,0 +1,629 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "i3c",
+      "start": 1500000,
+      "end": 84500000,
+      "kind": "ENTDAA",
+      "summary": "ENTDAA: PID 04 A0 00 00 12 34 BCR 0x06 DCR 0x2B → address 0x52",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 126,
+          "display": "0x7E",
+          "kind": "address",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "direction",
+          "display": "W",
+          "kind": "text",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ACK",
+          "kind": "text",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 7,
+          "display": "0x07",
+          "kind": "data",
+          "start": 9000000,
+          "end": 15000000,
+          "samples": {
+            "chunk": 0,
+            "first": 23,
+            "last": 41
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 253,
+          "display": "0xFD",
+          "kind": "data",
+          "start": 16750000,
+          "end": 22750000,
+          "samples": {
+            "chunk": 0,
+            "first": 48,
+            "last": 67
+          }
+        },
+        {
+          "name": "data[2]",
+          "value": 4,
+          "display": "0x04",
+          "kind": "data",
+          "start": 23500000,
+          "end": 29500000,
+          "samples": {
+            "chunk": 0,
+            "first": 69,
+            "last": 87
+          }
+        },
+        {
+          "name": "data[3]",
+          "value": 160,
+          "display": "0xA0",
+          "kind": "data",
+          "start": 30250000,
+          "end": 36250000,
+          "samples": {
+            "chunk": 0,
+            "first": 90,
+            "last": 109
+          }
+        },
+        {
+          "name": "data[4]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 37000000,
+          "end": 43000000,
+          "samples": {
+            "chunk": 0,
+            "first": 111,
+            "last": 127
+          }
+        },
+        {
+          "name": "data[5]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 43750000,
+          "end": 49750000,
+          "samples": {
+            "chunk": 0,
+            "first": 129,
+            "last": 145
+          }
+        },
+        {
+          "name": "data[6]",
+          "value": 18,
+          "display": "0x12",
+          "kind": "data",
+          "start": 50500000,
+          "end": 56500000,
+          "samples": {
+            "chunk": 0,
+            "first": 147,
+            "last": 167
+          }
+        },
+        {
+          "name": "data[7]",
+          "value": 52,
+          "display": "0x34",
+          "kind": "data",
+          "start": 57250000,
+          "end": 63250000,
+          "samples": {
+            "chunk": 0,
+            "first": 169,
+            "last": 189
+          }
+        },
+        {
+          "name": "data[8]",
+          "value": 6,
+          "display": "0x06",
+          "kind": "data",
+          "start": 64000000,
+          "end": 70000000,
+          "samples": {
+            "chunk": 0,
+            "first": 191,
+            "last": 209
+          }
+        },
+        {
+          "name": "data[9]",
+          "value": 43,
+          "display": "0x2B",
+          "kind": "data",
+          "start": 70750000,
+          "end": 76750000,
+          "samples": {
+            "chunk": 0,
+            "first": 211,
+            "last": 233
+          }
+        },
+        {
+          "name": "data[10]",
+          "value": 164,
+          "display": "0xA4",
+          "kind": "data",
+          "start": 77500000,
+          "end": 83500000,
+          "samples": {
+            "chunk": 0,
+            "first": 236,
+            "last": 257
+          }
+        },
+        {
+          "name": "ccc",
+          "value": 7,
+          "display": "0x07",
+          "kind": "data",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "command",
+          "display": "ENTDAA",
+          "kind": "text",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "pid",
+          "value": 5085241283124,
+          "display": "04 A0 00 00 12 34",
+          "kind": "data",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "bcr",
+          "value": 6,
+          "display": "0x06",
+          "kind": "data",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "dcr",
+          "value": 43,
+          "display": "0x2B",
+          "kind": "data",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        },
+        {
+          "name": "assigned",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 2250000,
+          "end": 8250000,
+          "samples": {
+            "chunk": 0,
+            "first": 4,
+            "last": 21
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 257
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "i3c",
+      "start": 87000000,
+      "end": 108250000,
+      "kind": "CCC",
+      "summary": "ENEC broadcast  0B",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 126,
+          "display": "0x7E",
+          "kind": "address",
+          "start": 87750000,
+          "end": 93750000,
+          "samples": {
+            "chunk": 0,
+            "first": 264,
+            "last": 281
+          }
+        },
+        {
+          "name": "direction",
+          "display": "W",
+          "kind": "text",
+          "start": 87750000,
+          "end": 93750000,
+          "samples": {
+            "chunk": 0,
+            "first": 264,
+            "last": 281
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ACK",
+          "kind": "text",
+          "start": 87750000,
+          "end": 93750000,
+          "samples": {
+            "chunk": 0,
+            "first": 264,
+            "last": 281
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 94500000,
+          "end": 100500000,
+          "samples": {
+            "chunk": 0,
+            "first": 283,
+            "last": 300
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 11,
+          "display": "0x0B",
+          "kind": "data",
+          "start": 101250000,
+          "end": 107250000,
+          "samples": {
+            "chunk": 0,
+            "first": 303,
+            "last": 323
+          }
+        },
+        {
+          "name": "ccc",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 87750000,
+          "end": 93750000,
+          "samples": {
+            "chunk": 0,
+            "first": 264,
+            "last": 281
+          }
+        },
+        {
+          "name": "command",
+          "display": "ENEC",
+          "kind": "text",
+          "start": 87750000,
+          "end": 93750000,
+          "samples": {
+            "chunk": 0,
+            "first": 264,
+            "last": 281
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 261,
+        "last": 323
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "i3c",
+      "start": 110750000,
+      "end": 132000000,
+      "kind": "PRIVATE-W",
+      "summary": "0x52 W 10 20",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 111500000,
+          "end": 117500000,
+          "samples": {
+            "chunk": 0,
+            "first": 330,
+            "last": 351
+          }
+        },
+        {
+          "name": "direction",
+          "display": "W",
+          "kind": "text",
+          "start": 111500000,
+          "end": 117500000,
+          "samples": {
+            "chunk": 0,
+            "first": 330,
+            "last": 351
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ACK",
+          "kind": "text",
+          "start": 111500000,
+          "end": 117500000,
+          "samples": {
+            "chunk": 0,
+            "first": 330,
+            "last": 351
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 16,
+          "display": "0x10",
+          "kind": "data",
+          "start": 118250000,
+          "end": 124250000,
+          "samples": {
+            "chunk": 0,
+            "first": 353,
+            "last": 371
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 32,
+          "display": "0x20",
+          "kind": "data",
+          "start": 125000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 373,
+            "last": 391
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 327,
+        "last": 391
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "i3c",
+      "start": 134500000,
+      "end": 155750000,
+      "kind": "PRIVATE-R",
+      "summary": "0x52 R 34 8A",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 135250000,
+          "end": 141250000,
+          "samples": {
+            "chunk": 0,
+            "first": 398,
+            "last": 421
+          }
+        },
+        {
+          "name": "direction",
+          "display": "R",
+          "kind": "text",
+          "start": 135250000,
+          "end": 141250000,
+          "samples": {
+            "chunk": 0,
+            "first": 398,
+            "last": 421
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ACK",
+          "kind": "text",
+          "start": 135250000,
+          "end": 141250000,
+          "samples": {
+            "chunk": 0,
+            "first": 398,
+            "last": 421
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 52,
+          "display": "0x34",
+          "kind": "data",
+          "start": 142000000,
+          "end": 148000000,
+          "samples": {
+            "chunk": 0,
+            "first": 423,
+            "last": 444
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 138,
+          "display": "0x8A",
+          "kind": "data",
+          "start": 148750000,
+          "end": 154750000,
+          "samples": {
+            "chunk": 0,
+            "first": 446,
+            "last": 468
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 395,
+        "last": 468
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "i3c",
+      "start": 158250000,
+      "end": 172750000,
+      "kind": "IBI",
+      "summary": "0x52 in-band interrupt, MDB 0x01",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "address",
+          "value": 82,
+          "display": "0x52",
+          "kind": "address",
+          "start": 159000000,
+          "end": 165000000,
+          "samples": {
+            "chunk": 0,
+            "first": 476,
+            "last": 499
+          }
+        },
+        {
+          "name": "direction",
+          "display": "R",
+          "kind": "text",
+          "start": 159000000,
+          "end": 165000000,
+          "samples": {
+            "chunk": 0,
+            "first": 476,
+            "last": 499
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ACK",
+          "kind": "text",
+          "start": 159000000,
+          "end": 165000000,
+          "samples": {
+            "chunk": 0,
+            "first": 476,
+            "last": 499
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 1,
+          "display": "0x01",
+          "kind": "data",
+          "start": 165750000,
+          "end": 171750000,
+          "samples": {
+            "chunk": 0,
+            "first": 501,
+            "last": 518
+          }
+        },
+        {
+          "name": "mdb",
+          "value": 1,
+          "display": "0x01",
+          "kind": "data",
+          "start": 159000000,
+          "end": 165000000,
+          "samples": {
+            "chunk": 0,
+            "first": 476,
+            "last": 499
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 473,
+        "last": 518
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

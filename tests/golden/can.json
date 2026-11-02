@@ -1,0 +1,751 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "can",
+      "start": 4000000,
+      "end": 145000000,
+      "kind": "DATA",
+      "summary": "0x123 DATA DE AD BE EF",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "id",
+          "value": 291,
+          "display": "0x123",
+          "kind": "address",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "ide",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 4,
+          "display": "4",
+          "kind": "count",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 222,
+          "display": "0xDE",
+          "kind": "data",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 173,
+          "display": "0xAD",
+          "kind": "data",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "data[2]",
+          "value": 190,
+          "display": "0xBE",
+          "kind": "data",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "data[3]",
+          "value": 239,
+          "display": "0xEF",
+          "kind": "data",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "crc",
+          "value": 20075,
+          "display": "0x4E6B",
+          "kind": "data",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ack",
+          "kind": "text",
+          "start": 4000000,
+          "end": 145000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 36
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 36
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "can",
+      "start": 208000000,
+      "end": 365000000,
+      "kind": "DATA",
+      "summary": "0x012ABCDE ext DATA 01 02",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "id",
+          "value": 19578078,
+          "display": "0x012ABCDE",
+          "kind": "address",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "ide",
+          "value": 1,
+          "display": "1",
+          "kind": "flag",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 2,
+          "display": "2",
+          "kind": "count",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 1,
+          "display": "0x01",
+          "kind": "data",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 2,
+          "display": "0x02",
+          "kind": "data",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "crc",
+          "value": 1025,
+          "display": "0x0401",
+          "kind": "data",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ack",
+          "kind": "text",
+          "start": 208000000,
+          "end": 365000000,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 72
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 37,
+        "last": 72
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "can",
+      "start": 428000000,
+      "end": 503000000,
+      "kind": "REMOTE",
+      "summary": "0x200 REMOTE DLC 3",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "id",
+          "value": 512,
+          "display": "0x200",
+          "kind": "address",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        },
+        {
+          "name": "ide",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 1,
+          "display": "1",
+          "kind": "flag",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 3,
+          "display": "3",
+          "kind": "count",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        },
+        {
+          "name": "crc",
+          "value": 2275,
+          "display": "0x08E3",
+          "kind": "data",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ack",
+          "kind": "text",
+          "start": 428000000,
+          "end": 503000000,
+          "samples": {
+            "chunk": 0,
+            "first": 73,
+            "last": 88
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 73,
+        "last": 88
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "can",
+      "start": 566000000,
+      "end": 721000000,
+      "kind": "DATA",
+      "summary": "0x000 DATA 00 00 FF FF",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "id",
+          "value": 0,
+          "display": "0x000",
+          "kind": "address",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "ide",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 4,
+          "display": "4",
+          "kind": "count",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "data[1]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "data[2]",
+          "value": 255,
+          "display": "0xFF",
+          "kind": "data",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "data[3]",
+          "value": 255,
+          "display": "0xFF",
+          "kind": "data",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "crc",
+          "value": 17566,
+          "display": "0x449E",
+          "kind": "data",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        },
+        {
+          "name": "ack",
+          "display": "ack",
+          "kind": "text",
+          "start": 566000000,
+          "end": 721000000,
+          "samples": {
+            "chunk": 0,
+            "first": 89,
+            "last": 120
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 89,
+        "last": 120
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "can",
+      "start": 784000000,
+      "end": 875000000,
+      "kind": "DATA",
+      "summary": "0x321 DATA AA  — nobody acknowledged",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "id",
+          "value": 801,
+          "display": "0x321",
+          "kind": "address",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "ide",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 1,
+          "display": "1",
+          "kind": "count",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 170,
+          "display": "0xAA",
+          "kind": "data",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "crc",
+          "value": 19738,
+          "display": "0x4D1A",
+          "kind": "data",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          }
+        },
+        {
+          "name": "ack",
+          "display": "none",
+          "kind": "text",
+          "start": 784000000,
+          "end": 875000000,
+          "samples": {
+            "chunk": 0,
+            "first": 121,
+            "last": 148
+          },
+          "severity": "warning"
+        }
+      ],
+      "errors": [
+        "nack"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 121,
+        "last": 148
+      },
+      "complete": true
+    },
+    {
+      "id": 6,
+      "bus": 0,
+      "protocol": "can",
+      "start": 938000000,
+      "end": 1029000000,
+      "kind": "DATA",
+      "summary": "0x111 DATA 55  — CRC failed",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "id",
+          "value": 273,
+          "display": "0x111",
+          "kind": "address",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "ide",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "rtr",
+          "value": 0,
+          "display": "0",
+          "kind": "flag",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "dlc",
+          "value": 1,
+          "display": "1",
+          "kind": "count",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "data[0]",
+          "value": 85,
+          "display": "0x55",
+          "kind": "data",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "crc",
+          "value": 25352,
+          "display": "0x6308",
+          "kind": "data",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        },
+        {
+          "name": "crc_check",
+          "display": "failed: computed 0x6309",
+          "kind": "text",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          },
+          "severity": "warning"
+        },
+        {
+          "name": "ack",
+          "display": "ack",
+          "kind": "text",
+          "start": 938000000,
+          "end": 1029000000,
+          "samples": {
+            "chunk": 0,
+            "first": 149,
+            "last": 174
+          }
+        }
+      ],
+      "errors": [
+        "check_failed"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 149,
+        "last": 174
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

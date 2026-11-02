@@ -1,0 +1,10 @@
+[package]
+name = "file"
+description = "The capture container: records, gaps, recovery, index"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+serde.workspace = true
+serde_json.workspace = true

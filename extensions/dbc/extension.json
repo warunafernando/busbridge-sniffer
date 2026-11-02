@@ -1,0 +1,16 @@
+{
+  "name": "dbc",
+  "version": "1.0.0",
+  "about": "CAN frames as named signals in engineering units, from a signal database",
+  "protocols": ["can"],
+  "command": ["python", "dbc.py"],
+  "settings": {
+    "database": ""
+  },
+  "search_fields": [
+    { "name": "dbc.message", "help": "the message name for the frame's id" },
+    { "name": "dbc.what", "help": "the message name, as a label" },
+    { "name": "dbc.EngineSpeed", "help": "a decoded signal; every signal in the database becomes a field" }
+  ],
+  "timeout_ms": 10000
+}

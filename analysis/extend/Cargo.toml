@@ -1,0 +1,15 @@
+[package]
+name = "extend"
+description = "The extension host: device and application analysers as subprocesses"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+file.workspace = true
+simulator.workspace = true
+registry.workspace = true

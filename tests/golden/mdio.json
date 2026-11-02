@@ -1,0 +1,414 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "mdio",
+      "start": 34000000,
+      "end": 65000000,
+      "kind": "READ",
+      "summary": "READ PHY 1 REG 0x02 = 0x0141",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "op",
+          "display": "READ",
+          "kind": "text",
+          "start": 34000000,
+          "end": 65000000,
+          "samples": {
+            "chunk": 0,
+            "first": 66,
+            "last": 128
+          }
+        },
+        {
+          "name": "phy",
+          "value": 1,
+          "display": "1",
+          "kind": "address",
+          "start": 34000000,
+          "end": 65000000,
+          "samples": {
+            "chunk": 0,
+            "first": 66,
+            "last": 128
+          }
+        },
+        {
+          "name": "reg",
+          "value": 2,
+          "display": "0x02",
+          "kind": "address",
+          "start": 34000000,
+          "end": 65000000,
+          "samples": {
+            "chunk": 0,
+            "first": 66,
+            "last": 128
+          }
+        },
+        {
+          "name": "data",
+          "value": 321,
+          "display": "0x0141",
+          "kind": "data",
+          "start": 34000000,
+          "end": 65000000,
+          "samples": {
+            "chunk": 0,
+            "first": 66,
+            "last": 128
+          }
+        },
+        {
+          "name": "turnaround",
+          "display": "ok",
+          "kind": "text",
+          "start": 34000000,
+          "end": 65000000,
+          "samples": {
+            "chunk": 0,
+            "first": 66,
+            "last": 128
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 66,
+        "last": 128
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "mdio",
+      "start": 100000000,
+      "end": 131000000,
+      "kind": "READ",
+      "summary": "READ PHY 1 REG 0x03 = 0x0DD1",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "op",
+          "display": "READ",
+          "kind": "text",
+          "start": 100000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 194,
+            "last": 256
+          }
+        },
+        {
+          "name": "phy",
+          "value": 1,
+          "display": "1",
+          "kind": "address",
+          "start": 100000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 194,
+            "last": 256
+          }
+        },
+        {
+          "name": "reg",
+          "value": 3,
+          "display": "0x03",
+          "kind": "address",
+          "start": 100000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 194,
+            "last": 256
+          }
+        },
+        {
+          "name": "data",
+          "value": 3537,
+          "display": "0x0DD1",
+          "kind": "data",
+          "start": 100000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 194,
+            "last": 256
+          }
+        },
+        {
+          "name": "turnaround",
+          "display": "ok",
+          "kind": "text",
+          "start": 100000000,
+          "end": 131000000,
+          "samples": {
+            "chunk": 0,
+            "first": 194,
+            "last": 256
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 194,
+        "last": 256
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "mdio",
+      "start": 166000000,
+      "end": 197000000,
+      "kind": "WRITE",
+      "summary": "WRITE PHY 1 REG 0x00 = 0x1200",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "op",
+          "display": "WRITE",
+          "kind": "text",
+          "start": 166000000,
+          "end": 197000000,
+          "samples": {
+            "chunk": 0,
+            "first": 322,
+            "last": 384
+          }
+        },
+        {
+          "name": "phy",
+          "value": 1,
+          "display": "1",
+          "kind": "address",
+          "start": 166000000,
+          "end": 197000000,
+          "samples": {
+            "chunk": 0,
+            "first": 322,
+            "last": 384
+          }
+        },
+        {
+          "name": "reg",
+          "value": 0,
+          "display": "0x00",
+          "kind": "address",
+          "start": 166000000,
+          "end": 197000000,
+          "samples": {
+            "chunk": 0,
+            "first": 322,
+            "last": 384
+          }
+        },
+        {
+          "name": "data",
+          "value": 4608,
+          "display": "0x1200",
+          "kind": "data",
+          "start": 166000000,
+          "end": 197000000,
+          "samples": {
+            "chunk": 0,
+            "first": 322,
+            "last": 384
+          }
+        },
+        {
+          "name": "turnaround",
+          "display": "ok",
+          "kind": "text",
+          "start": 166000000,
+          "end": 197000000,
+          "samples": {
+            "chunk": 0,
+            "first": 322,
+            "last": 384
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 322,
+        "last": 384
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "mdio",
+      "start": 232000000,
+      "end": 263000000,
+      "kind": "READ",
+      "summary": "READ PHY 1 REG 0x01 = 0x796D",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "op",
+          "display": "READ",
+          "kind": "text",
+          "start": 232000000,
+          "end": 263000000,
+          "samples": {
+            "chunk": 0,
+            "first": 450,
+            "last": 512
+          }
+        },
+        {
+          "name": "phy",
+          "value": 1,
+          "display": "1",
+          "kind": "address",
+          "start": 232000000,
+          "end": 263000000,
+          "samples": {
+            "chunk": 0,
+            "first": 450,
+            "last": 512
+          }
+        },
+        {
+          "name": "reg",
+          "value": 1,
+          "display": "0x01",
+          "kind": "address",
+          "start": 232000000,
+          "end": 263000000,
+          "samples": {
+            "chunk": 0,
+            "first": 450,
+            "last": 512
+          }
+        },
+        {
+          "name": "data",
+          "value": 31085,
+          "display": "0x796D",
+          "kind": "data",
+          "start": 232000000,
+          "end": 263000000,
+          "samples": {
+            "chunk": 0,
+            "first": 450,
+            "last": 512
+          }
+        },
+        {
+          "name": "turnaround",
+          "display": "ok",
+          "kind": "text",
+          "start": 232000000,
+          "end": 263000000,
+          "samples": {
+            "chunk": 0,
+            "first": 450,
+            "last": 512
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 450,
+        "last": 512
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "mdio",
+      "start": 298000000,
+      "end": 329000000,
+      "kind": "READ",
+      "summary": "READ PHY 7 REG 0x02 — no turnaround: nothing answered",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "op",
+          "display": "READ",
+          "kind": "text",
+          "start": 298000000,
+          "end": 329000000,
+          "samples": {
+            "chunk": 0,
+            "first": 578,
+            "last": 640
+          }
+        },
+        {
+          "name": "phy",
+          "value": 7,
+          "display": "7",
+          "kind": "address",
+          "start": 298000000,
+          "end": 329000000,
+          "samples": {
+            "chunk": 0,
+            "first": 578,
+            "last": 640
+          }
+        },
+        {
+          "name": "reg",
+          "value": 2,
+          "display": "0x02",
+          "kind": "address",
+          "start": 298000000,
+          "end": 329000000,
+          "samples": {
+            "chunk": 0,
+            "first": 578,
+            "last": 640
+          }
+        },
+        {
+          "name": "data",
+          "value": 65535,
+          "display": "0xFFFF",
+          "kind": "data",
+          "start": 298000000,
+          "end": 329000000,
+          "samples": {
+            "chunk": 0,
+            "first": 578,
+            "last": 640
+          }
+        },
+        {
+          "name": "turnaround",
+          "display": "none",
+          "kind": "text",
+          "start": 298000000,
+          "end": 329000000,
+          "samples": {
+            "chunk": 0,
+            "first": 578,
+            "last": 640
+          },
+          "severity": "warning"
+        }
+      ],
+      "errors": [
+        "framing"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 578,
+        "last": 640
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

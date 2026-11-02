@@ -1,0 +1,20 @@
+{
+  "name": "cmis",
+  "version": "1.0.0",
+  "about": "Optical modules: CMIS pages, registers, temperature and voltage",
+  "protocols": ["i2c"],
+  "command": ["python", "cmis.py"],
+  "settings": {
+    "page": "unknown"
+  },
+  "search_fields": [
+    { "name": "cmis.register", "help": "the register the transfer addressed" },
+    { "name": "cmis.page", "help": "the upper page in force" },
+    { "name": "cmis.field", "help": "the register's name in CMIS" },
+    { "name": "cmis.temperature", "help": "module temperature, decoded" },
+    { "name": "cmis.voltage", "help": "supply voltage, decoded" },
+    { "name": "cmis.module_state", "help": "reset, low power, ready, fault" },
+    { "name": "cmis.what", "help": "what the transfer was for" }
+  ],
+  "timeout_ms": 10000
+}

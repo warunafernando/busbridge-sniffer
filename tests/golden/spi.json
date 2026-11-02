@@ -1,0 +1,379 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "spi",
+      "start": 1500000,
+      "end": 36000000,
+      "kind": "TRANSFER",
+      "summary": "MOSI 9F 00 00 00  MISO 00 EF 40 18",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "mosi[0]",
+          "value": 159,
+          "display": "0x9F",
+          "kind": "data",
+          "start": 1500000,
+          "end": 9500000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 17
+          }
+        },
+        {
+          "name": "miso[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 1500000,
+          "end": 9500000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 17
+          }
+        },
+        {
+          "name": "mosi[1]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 1500000,
+          "end": 18000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 34
+          }
+        },
+        {
+          "name": "miso[1]",
+          "value": 239,
+          "display": "0xEF",
+          "kind": "data",
+          "start": 1500000,
+          "end": 18000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 34
+          }
+        },
+        {
+          "name": "mosi[2]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 1500000,
+          "end": 26500000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 51
+          }
+        },
+        {
+          "name": "miso[2]",
+          "value": 64,
+          "display": "0x40",
+          "kind": "data",
+          "start": 1500000,
+          "end": 26500000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 51
+          }
+        },
+        {
+          "name": "mosi[3]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 1500000,
+          "end": 35000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 67
+          }
+        },
+        {
+          "name": "miso[3]",
+          "value": 24,
+          "display": "0x18",
+          "kind": "data",
+          "start": 1500000,
+          "end": 35000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 67
+          }
+        },
+        {
+          "name": "words",
+          "value": 4,
+          "display": "4",
+          "kind": "count",
+          "start": 1500000,
+          "end": 36000000,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 69
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 69
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "spi",
+      "start": 40500000,
+      "end": 109000000,
+      "kind": "TRANSFER",
+      "summary": "MOSI 03 00 01 00 00 00 00 00  MISO 00 00 00 00 DE AD BE EF",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "mosi[0]",
+          "value": 3,
+          "display": "0x03",
+          "kind": "data",
+          "start": 40500000,
+          "end": 48500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 85
+          }
+        },
+        {
+          "name": "miso[0]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 48500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 85
+          }
+        },
+        {
+          "name": "mosi[1]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 57000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 102
+          }
+        },
+        {
+          "name": "miso[1]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 57000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 102
+          }
+        },
+        {
+          "name": "mosi[2]",
+          "value": 1,
+          "display": "0x01",
+          "kind": "data",
+          "start": 40500000,
+          "end": 65500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 118
+          }
+        },
+        {
+          "name": "miso[2]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 65500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 118
+          }
+        },
+        {
+          "name": "mosi[3]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 74000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 135
+          }
+        },
+        {
+          "name": "miso[3]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 74000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 135
+          }
+        },
+        {
+          "name": "mosi[4]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 152
+          }
+        },
+        {
+          "name": "miso[4]",
+          "value": 222,
+          "display": "0xDE",
+          "kind": "data",
+          "start": 40500000,
+          "end": 82500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 152
+          }
+        },
+        {
+          "name": "mosi[5]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 91000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 169
+          }
+        },
+        {
+          "name": "miso[5]",
+          "value": 173,
+          "display": "0xAD",
+          "kind": "data",
+          "start": 40500000,
+          "end": 91000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 169
+          }
+        },
+        {
+          "name": "mosi[6]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 99500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 185
+          }
+        },
+        {
+          "name": "miso[6]",
+          "value": 190,
+          "display": "0xBE",
+          "kind": "data",
+          "start": 40500000,
+          "end": 99500000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 185
+          }
+        },
+        {
+          "name": "mosi[7]",
+          "value": 0,
+          "display": "0x00",
+          "kind": "data",
+          "start": 40500000,
+          "end": 108000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 202
+          }
+        },
+        {
+          "name": "miso[7]",
+          "value": 239,
+          "display": "0xEF",
+          "kind": "data",
+          "start": 40500000,
+          "end": 108000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 202
+          }
+        },
+        {
+          "name": "words",
+          "value": 8,
+          "display": "8",
+          "kind": "count",
+          "start": 40500000,
+          "end": 109000000,
+          "samples": {
+            "chunk": 0,
+            "first": 70,
+            "last": 204
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 70,
+        "last": 204
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

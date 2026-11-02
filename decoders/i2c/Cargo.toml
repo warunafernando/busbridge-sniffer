@@ -1,0 +1,10 @@
+[package]
+name = "i2c"
+description = "I2C decoder over raw edges"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+decode.workspace = true

@@ -1,0 +1,9 @@
+[package]
+name = "capture"
+description = "Reading raw edges off a BUSBRIDGE board into capture chunks"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true

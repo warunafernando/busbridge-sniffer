@@ -1,0 +1,616 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 17361110,
+      "end": 112847215,
+      "kind": "FRAME",
+      "summary": "0x52 'R'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 82,
+          "display": "0x52",
+          "kind": "data",
+          "start": 17361110,
+          "end": 112847215,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 8
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "R",
+          "kind": "text",
+          "start": 17361110,
+          "end": 112847215,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 8
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 17361110,
+          "end": 112847215,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 8
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 17361110,
+          "end": 112847215,
+          "samples": {
+            "chunk": 0,
+            "first": 1,
+            "last": 8
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 1,
+        "last": 8
+      },
+      "complete": true
+    },
+    {
+      "id": 2,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 121527770,
+      "end": 217013875,
+      "kind": "FRAME",
+      "summary": "0x45 'E'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 69,
+          "display": "0x45",
+          "kind": "data",
+          "start": 121527770,
+          "end": 217013875,
+          "samples": {
+            "chunk": 0,
+            "first": 9,
+            "last": 16
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "E",
+          "kind": "text",
+          "start": 121527770,
+          "end": 217013875,
+          "samples": {
+            "chunk": 0,
+            "first": 9,
+            "last": 16
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 121527770,
+          "end": 217013875,
+          "samples": {
+            "chunk": 0,
+            "first": 9,
+            "last": 16
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 121527770,
+          "end": 217013875,
+          "samples": {
+            "chunk": 0,
+            "first": 9,
+            "last": 16
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 9,
+        "last": 16
+      },
+      "complete": true
+    },
+    {
+      "id": 3,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 225694430,
+      "end": 321180535,
+      "kind": "FRAME",
+      "summary": "0x41 'A'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 65,
+          "display": "0x41",
+          "kind": "data",
+          "start": 225694430,
+          "end": 321180535,
+          "samples": {
+            "chunk": 0,
+            "first": 17,
+            "last": 22
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "A",
+          "kind": "text",
+          "start": 225694430,
+          "end": 321180535,
+          "samples": {
+            "chunk": 0,
+            "first": 17,
+            "last": 22
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 225694430,
+          "end": 321180535,
+          "samples": {
+            "chunk": 0,
+            "first": 17,
+            "last": 22
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 225694430,
+          "end": 321180535,
+          "samples": {
+            "chunk": 0,
+            "first": 17,
+            "last": 22
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 17,
+        "last": 22
+      },
+      "complete": true
+    },
+    {
+      "id": 4,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 329861090,
+      "end": 425347195,
+      "kind": "FRAME",
+      "summary": "0x44 'D'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 68,
+          "display": "0x44",
+          "kind": "data",
+          "start": 329861090,
+          "end": 425347195,
+          "samples": {
+            "chunk": 0,
+            "first": 23,
+            "last": 28
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "D",
+          "kind": "text",
+          "start": 329861090,
+          "end": 425347195,
+          "samples": {
+            "chunk": 0,
+            "first": 23,
+            "last": 28
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 329861090,
+          "end": 425347195,
+          "samples": {
+            "chunk": 0,
+            "first": 23,
+            "last": 28
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 329861090,
+          "end": 425347195,
+          "samples": {
+            "chunk": 0,
+            "first": 23,
+            "last": 28
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 23,
+        "last": 28
+      },
+      "complete": true
+    },
+    {
+      "id": 5,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 434027750,
+      "end": 529513855,
+      "kind": "FRAME",
+      "summary": "0x59 'Y'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 89,
+          "display": "0x59",
+          "kind": "data",
+          "start": 434027750,
+          "end": 529513855,
+          "samples": {
+            "chunk": 0,
+            "first": 29,
+            "last": 36
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "Y",
+          "kind": "text",
+          "start": 434027750,
+          "end": 529513855,
+          "samples": {
+            "chunk": 0,
+            "first": 29,
+            "last": 36
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 434027750,
+          "end": 529513855,
+          "samples": {
+            "chunk": 0,
+            "first": 29,
+            "last": 36
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 434027750,
+          "end": 529513855,
+          "samples": {
+            "chunk": 0,
+            "first": 29,
+            "last": 36
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 29,
+        "last": 36
+      },
+      "complete": true
+    },
+    {
+      "id": 6,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 572916630,
+      "end": 668402735,
+      "kind": "FRAME",
+      "summary": "0x41 'A'  parity error",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "data",
+          "value": 65,
+          "display": "0x41",
+          "kind": "data",
+          "start": 572916630,
+          "end": 668402735,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 42
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "A",
+          "kind": "text",
+          "start": 572916630,
+          "end": 668402735,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 42
+          }
+        },
+        {
+          "name": "parity",
+          "display": "bad",
+          "kind": "text",
+          "start": 572916630,
+          "end": 668402735,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 42
+          },
+          "severity": "warning"
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 572916630,
+          "end": 668402735,
+          "samples": {
+            "chunk": 0,
+            "first": 37,
+            "last": 42
+          }
+        }
+      ],
+      "errors": [
+        "check_failed"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 37,
+        "last": 42
+      },
+      "complete": true
+    },
+    {
+      "id": 7,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 711805510,
+      "end": 807291615,
+      "kind": "FRAME",
+      "summary": "0x42 'B'  framing error - check the baud rate",
+      "severity": "warning",
+      "fields": [
+        {
+          "name": "data",
+          "value": 66,
+          "display": "0x42",
+          "kind": "data",
+          "start": 711805510,
+          "end": 807291615,
+          "samples": {
+            "chunk": 0,
+            "first": 43,
+            "last": 48
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "B",
+          "kind": "text",
+          "start": 711805510,
+          "end": 807291615,
+          "samples": {
+            "chunk": 0,
+            "first": 43,
+            "last": 48
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 711805510,
+          "end": 807291615,
+          "samples": {
+            "chunk": 0,
+            "first": 43,
+            "last": 48
+          }
+        },
+        {
+          "name": "framing",
+          "display": "bad",
+          "kind": "text",
+          "start": 711805510,
+          "end": 807291615,
+          "samples": {
+            "chunk": 0,
+            "first": 43,
+            "last": 48
+          },
+          "severity": "warning"
+        }
+      ],
+      "errors": [
+        "framing"
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 43,
+        "last": 48
+      },
+      "complete": true
+    },
+    {
+      "id": 8,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 859374945,
+      "end": 954861050,
+      "kind": "FRAME",
+      "summary": "0x4F 'O'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 79,
+          "display": "0x4F",
+          "kind": "data",
+          "start": 859374945,
+          "end": 954861050,
+          "samples": {
+            "chunk": 0,
+            "first": 49,
+            "last": 54
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "O",
+          "kind": "text",
+          "start": 859374945,
+          "end": 954861050,
+          "samples": {
+            "chunk": 0,
+            "first": 49,
+            "last": 54
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 859374945,
+          "end": 954861050,
+          "samples": {
+            "chunk": 0,
+            "first": 49,
+            "last": 54
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 859374945,
+          "end": 954861050,
+          "samples": {
+            "chunk": 0,
+            "first": 49,
+            "last": 54
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 49,
+        "last": 54
+      },
+      "complete": true
+    },
+    {
+      "id": 9,
+      "bus": 0,
+      "protocol": "uart",
+      "start": 963541605,
+      "end": 1059027710,
+      "kind": "FRAME",
+      "summary": "0x4B 'K'",
+      "severity": "info",
+      "fields": [
+        {
+          "name": "data",
+          "value": 75,
+          "display": "0x4B",
+          "kind": "data",
+          "start": 963541605,
+          "end": 1059027710,
+          "samples": {
+            "chunk": 0,
+            "first": 55,
+            "last": 62
+          }
+        },
+        {
+          "name": "ascii",
+          "display": "K",
+          "kind": "text",
+          "start": 963541605,
+          "end": 1059027710,
+          "samples": {
+            "chunk": 0,
+            "first": 55,
+            "last": 62
+          }
+        },
+        {
+          "name": "parity",
+          "display": "ok",
+          "kind": "text",
+          "start": 963541605,
+          "end": 1059027710,
+          "samples": {
+            "chunk": 0,
+            "first": 55,
+            "last": 62
+          }
+        },
+        {
+          "name": "framing",
+          "display": "ok",
+          "kind": "text",
+          "start": 963541605,
+          "end": 1059027710,
+          "samples": {
+            "chunk": 0,
+            "first": 55,
+            "last": 62
+          }
+        }
+      ],
+      "samples": {
+        "chunk": 0,
+        "first": 55,
+        "last": 62
+      },
+      "complete": true
+    }
+  ],
+  "events": []
+}

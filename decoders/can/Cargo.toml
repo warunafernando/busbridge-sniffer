@@ -1,0 +1,13 @@
+[package]
+name = "can"
+description = "CAN 2.0B decoder over raw edges"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
+file.workspace = true
+decode.workspace = true
+
+[dev-dependencies]
+simulator.workspace = true

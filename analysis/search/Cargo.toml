@@ -1,0 +1,8 @@
+[package]
+name = "search"
+description = "The protocol-native query language, shared by the CLI and the UI"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+schema.workspace = true
