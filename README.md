@@ -13,6 +13,24 @@ cargo run -p sniffer-cli -- demo
 That runs Appendix D start to finish — capture, save, reopen, decode, show,
 select, query, inject loss, replay, export — and reports each step.
 
+## Related repositories
+
+This is one of three that make up the same bench. It decodes; it does not
+capture — the hardware half lives in the other two.
+
+| repository | what it is |
+|---|---|
+| [busbridge-rt](https://github.com/warunafernando/busbridge-rt) | USB bus controller and sniffer on the NXP FRDM-IMXRT1186. The capture source this is pointed at today: I3C at a measured 12.5 MHz, pin-clocked capture lossless to the same rate. |
+| [busbridge-stm32h5](https://github.com/warunafernando/busbridge-stm32h5) | The original STM32H5 build. Also the I2C/I3C target the RT1186 board is tested against. |
+
+The coupling runs both ways and is deliberate. `busbridge-rt`'s acceptance
+suite shells out to `sniffer.exe` built here — overridable with `SNIFFER_EXE` —
+because a capture pipeline whose two halves are only ever tested separately is
+a pipeline whose two halves can disagree. The worst defect that project had was
+exactly such a disagreement: a reply line truncated in the host library, which
+made captures decode to plausible wrong bytes and sent the investigation here,
+to a decoder that was faithfully decoding what it had been given.
+
 ## What is here
 
 | | |
